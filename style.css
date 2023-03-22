@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    min-height: 300px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+a {
+    color: #3f79ab;
+}
+
+.btn{
+    border: 2px solid black;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    background-color: #ffd966;
+    box-shadow: 2px 2px 2px black;
+} 
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+aside {
+    border: 3px solid black;
+    align-self: flex-start;
+    text-align: center;
+    padding: 3.9rem;
+}
+
+.sidebar {
+    flex: 1;
+    align-self: flex-start;
+}
+
+.post {
+    flex: 2;
+}
+
+.card {
+    border: 3px solid black;
+    margin-bottom: 3rem;
+    padding: 2rem;
+}
+
+.icon {
+    width: 90px;
+}
